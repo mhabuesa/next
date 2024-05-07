@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from hotflix.volkovdesign.com/main/profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Aug 2023 12:38:41 GMT -->
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,6 +16,8 @@
 	<link rel="stylesheet" href="css/photoswipe.css">
 	<link rel="stylesheet" href="css/default-skin.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!-- Favicons -->
 	<link rel="icon" type="image/png" href="icon/favicon-32x32.png" sizes="32x32">
@@ -26,7 +26,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="author" content="Dmitry Volkov">
-	<title>HotFlix – Online Movies, TV Shows & Cinema HTML Template</title>
+	<title>CineNest – Online Movies, TV Shows & Cinema Website</title>
 </head>
 
 <body class="body">
@@ -93,7 +93,7 @@
 								<i class="icon ion-ios-log-in"></i>
 								<span>sign in</span>
 							</a>
-							<a href="pricing.html" class="header__nav-link person"><i class="icon ion-md-person"></i></a>
+							<a href="profile.html" class="header__nav-link person"><i class="icon ion-md-person"></i></a>
 						</div>
 						<!-- end header auth -->
 
@@ -159,10 +159,6 @@
 								</li>
 
 								<li class="nav-item">
-									<a class="nav-link" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Subscription</a>
-								</li>
-
-								<li class="nav-item">
 									<a class="nav-link" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Settings</a>
 								</li>
 							</ul>
@@ -178,8 +174,6 @@
 								<div class="content__mobile-tabs-menu dropdown-menu" aria-labelledby="mobile-tabs">
 									<ul class="nav nav-tabs" role="tablist">
 										<li class="nav-item"><a class="nav-link active" id="1-tab" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Profile</a></li>
-
-										<li class="nav-item"><a class="nav-link" id="2-tab" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Subscription</a></li>
 
 										<li class="nav-item"><a class="nav-link" id="3-tab" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Settings</a></li>
 									</ul>
@@ -413,51 +407,6 @@
 					</div>
 				</div>
 
-				<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="2-tab">
-					<div class="row row--grid">
-						<!-- price -->
-						<div class="col-12 col-md-6 col-lg-4 order-md-2 order-lg-1">
-							<div class="price price--profile">
-								<div class="price__item price__item--first"><span>Basic</span> <span>Free</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> 7 days</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> 720p Resolution</span></div>
-								<div class="price__item price__item--none"><span><i class="icon ion-ios-close"></i> Limited Availability</span></div>
-								<div class="price__item price__item--none"><span><i class="icon ion-ios-close"></i> Desktop Only</span></div>
-								<div class="price__item price__item--none"><span><i class="icon ion-ios-close"></i> Limited Support</span></div>
-								<a href="#" class="price__btn">Choose Plan</a>
-							</div>
-						</div>
-						<!-- end price -->
-
-						<!-- price -->
-						<div class="col-12 col-md-12 col-lg-4 order-md-1 order-lg-2">
-							<div class="price price--profile price--premium">
-								<div class="price__item price__item--first"><span>Premium</span> <span>$34.99 <sub>/ month</sub></span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> 1 Month</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> Full HD</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> Lifetime Availability</span></div>
-								<div class="price__item price__item--none"><span><i class="icon ion-ios-close"></i> TV & Desktop</span></div>
-								<div class="price__item price__item--none"><span><i class="icon ion-ios-close"></i> 24/7 Support</span></div>
-								<a href="#" class="price__btn">Choose Plan</a>
-							</div>
-						</div>
-						<!-- end price -->
-
-						<!-- price -->
-						<div class="col-12 col-md-6 col-lg-4 order-md-3">
-							<div class="price price--profile">
-								<div class="price__item price__item--first"><span>Cinematic</span> <span>$49.99 <sub>/ month</sub></span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> 2 Months</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> Ultra HD</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> Lifetime Availability</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> Any Device</span></div>
-								<div class="price__item"><span><i class="icon ion-ios-checkmark"></i> 24/7 Support</span></div>
-								<a href="#" class="price__btn">Choose Plan</a>
-							</div>
-						</div>
-						<!-- end price -->
-					</div>
-				</div>
 
 				<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="3-tab">
 					<div class="row">
@@ -469,14 +418,7 @@
 										<h4 class="form__title">Profile details</h4>
 									</div>
 
-									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
-										<div class="form__group">
-											<label class="form__label" for="username">Username</label>
-											<input id="username" type="text" name="username" class="form__input" placeholder="User 123">
-										</div>
-									</div>
-
-									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+									<div class="col-12 col-md-12 col-lg-12 col-xl-12">
 										<div class="form__group">
 											<label class="form__label" for="email">Email</label>
 											<input id="email" type="text" name="email" class="form__input" placeholder="email@email.com">
@@ -485,15 +427,15 @@
 
 									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
 										<div class="form__group">
-											<label class="form__label" for="firstname">First Name</label>
-											<input id="firstname" type="text" name="firstname" class="form__input" placeholder="John">
+											<label class="form__label" for="f_name">First Name</label>
+											<input id="f_name" type="text" name="f_name" class="form__input" placeholder="John">
 										</div>
 									</div>
 
 									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
 										<div class="form__group">
-											<label class="form__label" for="lastname">Last Name</label>
-											<input id="lastname" type="text" name="lastname" class="form__input" placeholder="Doe">
+											<label class="form__label" for="l_name">Last Name</label>
+											<input id="l_name" type="text" name="l_name" class="form__input" placeholder="Dev">
 										</div>
 									</div>
 
@@ -513,7 +455,7 @@
 										<h4 class="form__title">Change password</h4>
 									</div>
 
-									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+									<div class="col-12 col-md-12 col-lg-12 col-xl-12">
 										<div class="form__group">
 											<label class="form__label" for="oldpass">Old password</label>
 											<input id="oldpass" type="password" name="oldpass" class="form__input">
@@ -534,18 +476,6 @@
 										</div>
 									</div>
 
-									<div class="col-12 col-md-6 col-lg-12 col-xl-6">
-										<div class="form__group">
-											<label class="form__label" for="select">Select</label>
-											<select name="select" id="select" class="form__select">
-												<option value="0">Option</option>
-												<option value="1">Option 2</option>
-												<option value="2">Option 3</option>
-												<option value="3">Option 4</option>
-											</select>
-										</div>
-									</div>
-
 									<div class="col-12">
 										<button class="form__btn" type="button">Change</button>
 									</div>
@@ -561,73 +491,7 @@
 	</div>
 	<!-- end content -->
 
-	<!-- partners -->
-	<section class="section section--border">
-		<div class="container">
-			<div class="row">
-				<!-- section title -->
-				<div class="col-12">
-					<h2 class="section__title section__title--mb">Our Partners</h2>
-				</div>
-				<!-- end section title -->
 
-				<!-- section text -->
-				<div class="col-12">
-					<p class="section__text">It is a long <b>established</b> fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
-				</div>
-				<!-- end section text -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/themeforest-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/audiojungle-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/codecanyon-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/photodune-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/activeden-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-
-				<!-- partner -->
-				<div class="col-6 col-sm-4 col-md-3 col-lg-2">
-					<a href="#" class="partner">
-						<img src="img/partners/3docean-light-background.png" alt="" class="partner__img">
-					</a>
-				</div>
-				<!-- end partner -->
-			</div>
-		</div>
-	</section>
-	<!-- end partners -->
 
 	<!-- footer -->
 	<footer class="footer">

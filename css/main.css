@@ -553,7 +553,7 @@ ul {
   }
   .header__sign-in {
     height: 40px;
-    width: 120px;
+    width: 90px;
     margin-left: 30px;
   }
   .header__sign-in i {
@@ -580,7 +580,7 @@ ul {
 }
 @media (min-width: 1200px) {
   .header__sign-in {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .header__auth {
     margin-right: 0;
@@ -666,7 +666,7 @@ ul {
 
 @media (min-width: 1440px) {
   .header__auth {
-    width: 494px;
+    width: 530px;
   }
   .header__nav-item {
     margin: 0 45px 0 0;
@@ -675,7 +675,7 @@ ul {
     margin: 0;
   }
   .header__search-input {
-    width: 300px;
+    width: 385px;
   }
 }
 /*==============================
@@ -785,6 +785,7 @@ ul {
   margin-bottom: 20px;
   padding: 20px 0;
   position: relative;
+  border-top: 1px solid #222028;
   border-bottom: 1px solid #222028;
 }
 .content__title {
@@ -916,7 +917,7 @@ ul {
     margin-bottom: 10px;
   }
   .content__head {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 30px 0 0;
   }
   .content__tabs {
